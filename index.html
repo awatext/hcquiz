@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HC Quiz</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+<body>
+    <h1>Quiz 1.0</h1>
+    <button onclick="start()" id="startButton">Start</button>
+    <fieldset id="questionField" style="display: none">
+        <legend id="question"></legend>
+        <div>
+            <input type="radio" id="A" name="question" value="0" checked="">
+            <label for="A" id="answer0"></label>
+        </div>
+        <div>
+            <input type="radio" id="B" name="question" value="1">
+            <label for="B" id="answer1"></label>
+        </div>
+        <div>
+            <input type="radio" id="C" name="question" value="2">
+            <label for="C" id="answer2"></label>
+        </div>
+        <div>
+            <input type="radio" id="D" name="question" value="3">
+            <label for="D" id="answer3"></label>
+        </div>
+        <div>
+            <button onclick="submit()">Next</button>
+        </div>
+    </fieldset>
+    <p id="result"></p>
+    <script src="script/const.js"></script>
+    <script src="script/script.js"></script>
+
+
+</body></html>

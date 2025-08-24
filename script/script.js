@@ -29,7 +29,7 @@ function $(query, list = false) {
 }
 // 只因⬆️
 function start() {
-    $("#startButton").style.display = "none";
+    $("#info").style.display = "none";
     $("#questionField").style.display = "";
     get_question();
 }

@@ -111,7 +111,11 @@ HC Quiz 1.0 重制版
 原网址 https://hcquiz.pages.dev/
 2.0版本 https://kroos372.github.io/games/quiz.html
 
+&lt;&lt;if !visited(&quot;结束&quot;)&gt;&gt;
 [[start-&gt;第一题]]
+&lt;&lt;else&gt;&gt;
+&lt;&lt;link &quot;start again&quot;&gt;&gt;&lt;&lt;run UI.restart()&gt;&gt;&lt;&lt;/link&gt;&gt;
+&lt;&lt;/if&gt;&gt;
 &lt;/div&gt;</tw-passagedata><tw-passagedata pid="2" name="第一题" tags="" position="500,200" size="100,100">hack.chat站长出生于哪一年？
 A. [[1995-&gt;第二题][$correct++]]
 B. [[1999-&gt;第二题]]
